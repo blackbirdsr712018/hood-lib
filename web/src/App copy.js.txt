@@ -1,0 +1,420 @@
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      {/*
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+
+      https://www.cssscript.com/demo/netflix-hover-carousel/
+      https://www.cssscript.com/netflix-hover-carousel/
+      https://codepen.io/Raddy/pen/NojQmd
+      https://www.cssscript.com/demo/netflix-hover-carousel/
+      https://codepen.io/jonathanlcarroll/pen/rmRRNZ
+      */}
+
+
+<header class="masthead clear">
+        <div class="centered">
+            
+            <div class="site-branding">
+                <h1 class="site-title">Flexbox Demo: Card Layouts</h1>
+              <p>Text from <a title="Office Ipsum" href="http://officeipsum.com/index.php">Office Ipsum</a> </p>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main-area">
+        
+        <div class="centered">
+            <div class="pre site-title card-content">Computer science, knowledge & systems</div>
+            <section class="cards">
+                
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://i.pinimg.com/originals/5d/c3/53/5dc353f0cbc0274fb1957f83c6eebdff.jpg" alt="A banana that looks like a bird"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Computer science, information & general works</h2>
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEVpL78nawZNUzQcjniqZjt0034Ax-aqomDVz_mVcTWi8ReprL" alt="A banana that looks like a bird"></img>
+                        </picture>
+                        <div class="card-content">
+
+                            <h2>Knowledge</h2>
+                            
+                        </div>
+                    </a>
+                </article>
+
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBS-dUImTUp9VEIy_E2G3fEGoAkjQfsHb2tZc9Pfp5ZTK17rOugQ" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>The book (writing, libraries, and book-related topics)</h2>
+                           
+                        </div>
+                    </a>
+                </article>
+
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqwxDfulnoM2L1Zb4jfy93ri7pyoxnqNbeQeCC9EvUeRdkL3EM" alt="A dinosaur wearing an aluminium jacket"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Systems</h2>
+                            
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMLHsPNL0yQ62eTzPjB7C-qRqX8uL8GtPBKbGGg2wm6ExkytdYg" alt="Chocolate filled boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Data processing & computer science</h2>
+                            
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_CB3mBTuPyitqDQG110Elnh9SAe08n9DTuNkmdA9JbNuflyWu" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Computer programming, programs & data</h2>
+                            </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTySh73TkuW1JuiwOieAaPndz13OU7sditVNHZALRaYYezDs-0i" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Special computer methods</h2>
+
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyUnrUl9bqYvUBQqXiJLnPfrSB7eJ-SQKhVgP8LnWjp3wFTd4TxQ" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>place holder</h2>
+
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgKq203idKNCTeI7hX7Gv9ATgtXy_T0LCS1XoN3dgWV18HdPTj" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>place holder</h2>
+
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZI218N_-5WFD7s3-EMhg-4Dx56ES9n8ON2wg9ncA6hn0x_fpbg" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>place holder</h2>
+
+                        </div>
+                    </a>
+                </article>
+
+
+            </section>
+           
+        </div>
+        
+
+    
+        <div class="centered">
+        <div class="pre site-title card-content">Bibliographies</div>
+            <section class="cards">
+                
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://i.pinimg.com/originals/5d/c3/53/5dc353f0cbc0274fb1957f83c6eebdff.jpg" alt="A banana that looks like a bird"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Bibliography</h2>
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEVpL78nawZNUzQcjniqZjt0034Ax-aqomDVz_mVcTWi8ReprL" alt="A banana that looks like a bird"></img>
+                        </picture>
+                        <div class="card-content">
+
+                            <h2>Bibliographies</h2>
+                            
+                        </div>
+                    </a>
+                </article>
+
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBS-dUImTUp9VEIy_E2G3fEGoAkjQfsHb2tZc9Pfp5ZTK17rOugQ" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Bibliographies of individuals</h2>
+                           
+                        </div>
+                    </a>
+                </article>
+
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqwxDfulnoM2L1Zb4jfy93ri7pyoxnqNbeQeCC9EvUeRdkL3EM" alt="A dinosaur wearing an aluminium jacket"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Bibliographies of anonymous & pseudonymous works</h2>
+                            
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMLHsPNL0yQ62eTzPjB7C-qRqX8uL8GtPBKbGGg2wm6ExkytdYg" alt="Chocolate filled boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Bibliographies of works from specific places</h2>
+                            
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_CB3mBTuPyitqDQG110Elnh9SAe08n9DTuNkmdA9JbNuflyWu" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Bibliographies of works on specific subjects</h2>
+                            </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTySh73TkuW1JuiwOieAaPndz13OU7sditVNHZALRaYYezDs-0i" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>General subject catalogs</h2>
+
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyUnrUl9bqYvUBQqXiJLnPfrSB7eJ-SQKhVgP8LnWjp3wFTd4TxQ" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Catalogs arranged by author, date, etc.</h2>
+
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgKq203idKNCTeI7hX7Gv9ATgtXy_T0LCS1XoN3dgWV18HdPTj" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Place holder</h2>
+
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZI218N_-5WFD7s3-EMhg-4Dx56ES9n8ON2wg9ncA6hn0x_fpbg" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Dictionary catalogs</h2>
+
+                        </div>
+                    </a>
+                </article>
+
+
+            </section>
+           
+        </div>
+        
+
+        <div class="centered">
+
+            <section class="cards">
+                
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://i.pinimg.com/originals/5d/c3/53/5dc353f0cbc0274fb1957f83c6eebdff.jpg" alt="A banana that looks like a bird"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Library & information sciences</h2>
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEVpL78nawZNUzQcjniqZjt0034Ax-aqomDVz_mVcTWi8ReprL" alt="A banana that looks like a bird"></img>
+                        </picture>
+                        <div class="card-content">
+
+                            <h2>Library relationships (with archives, information centers, etc.)</h2>
+                            
+                        </div>
+                    </a>
+                </article>
+
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBS-dUImTUp9VEIy_E2G3fEGoAkjQfsHb2tZc9Pfp5ZTK17rOugQ" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Administration of physical plant</h2>
+                           
+                        </div>
+                    </a>
+                </article>
+
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqwxDfulnoM2L1Zb4jfy93ri7pyoxnqNbeQeCC9EvUeRdkL3EM" alt="A dinosaur wearing an aluminium jacket"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2> Personnel management</h2>
+                            
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMLHsPNL0yQ62eTzPjB7C-qRqX8uL8GtPBKbGGg2wm6ExkytdYg" alt="Chocolate filled boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Library operations</h2>
+                            
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_CB3mBTuPyitqDQG110Elnh9SAe08n9DTuNkmdA9JbNuflyWu" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Libraries for specific subjects</h2>
+                            </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTySh73TkuW1JuiwOieAaPndz13OU7sditVNHZALRaYYezDs-0i" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>General libraries</h2>
+
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyUnrUl9bqYvUBQqXiJLnPfrSB7eJ-SQKhVgP8LnWjp3wFTd4TxQ" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Reading & use of other information media</h2>
+
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgKq203idKNCTeI7hX7Gv9ATgtXy_T0LCS1XoN3dgWV18HdPTj" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Place holder</h2>
+
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZI218N_-5WFD7s3-EMhg-4Dx56ES9n8ON2wg9ncA6hn0x_fpbg" alt="Norwegian boller"></img>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Place holder</h2>
+
+                        </div>
+                    </a>
+                </article>
+
+
+            </section>
+           
+        </div>
+        
+
+        
+    </main>
+
+
+
+    </div>
+  );
+}
+
+export default App;
